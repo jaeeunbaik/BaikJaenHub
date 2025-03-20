@@ -12,5 +12,4 @@ def solution(n, times):
         elif total < n:
             left = mid
         if left == right - 1:
-            break
-    return right
+            return right
